@@ -1,0 +1,25 @@
+# Install required libraries
+pip install pandas
+pip install requests
+pip install pandas-gbq
+
+# Run Jupyter Notebook
+jupyter notebook
+
+# In Jupyter Notebook install pandas-gbq
+!pip install pandas-gbq
+
+# Import library in Jupyter
+import pandas_gbq
+
+# Upload tables to BigQuery
+pandas_gbq.to_gbq(dataframe, 'dataset.table_name', project_id='your-project-id', if_exists='replace')
+
+# Looker Studio Steps
+# 1. Go to lookerstudio.google.com
+# 2. Create a new report
+# 3. Connect to BigQuery
+# 4. Select your project
+# 5. Select uber_dataset
+# 6. Select tbl_analysis_report
+# 7. Add charts and visualizations
