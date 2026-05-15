@@ -23,3 +23,7 @@ pandas_gbq.to_gbq(dataframe, 'dataset.table_name', project_id='your-project-id',
 # 5. Select uber_dataset
 # 6. Select tbl_analysis_report
 # 7. Add charts and visualizations
+
+# Data Model
+# Created using Lucidchart
+# Go to lucidchat.com to view the data model diagram
